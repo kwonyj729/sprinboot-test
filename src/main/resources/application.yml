@@ -15,5 +15,13 @@ spring:
     username: spring
     password: bitc5600
     driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1MB
+
+file:
+  path: C:/src/springbootWork/springboot-test/media/
       
       
